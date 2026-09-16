@@ -54,10 +54,11 @@ Versions **A** and **C** are statistically tied for the highest CTR and both sig
 ## Repo Contents
 
 ```
-eniac_a.csv               click-tracking export, Version A (white, SHOP NOW)
-eniac_b.csv                click-tracking export, Version B (red, SHOP NOW)
-eniac_c.csv                click-tracking export, Version C (white, SEE DEALS)
-eniac_d.csv                click-tracking export, Version D (red, SEE DEALS)
+data/
+  eniac_a.csv              click-tracking export, Version A (white, SHOP NOW)
+  eniac_b.csv              click-tracking export, Version B (red, SHOP NOW)
+  eniac_c.csv              click-tracking export, Version C (white, SEE DEALS)
+  eniac_d.csv              click-tracking export, Version D (red, SEE DEALS)
 eniac_case_analysis.ipynb  full analysis notebook
 ```
 
