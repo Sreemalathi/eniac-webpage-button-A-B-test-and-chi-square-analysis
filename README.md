@@ -30,7 +30,7 @@ Each `eniac_[a|b|c|d].csv` file is a click-tracking export for one homepage vari
 
 1. **Hypotheses** — H₀: all four versions have the same CTR. H₁: at least one version differs.
 2. **Significance level** — α = 0.05.
-3. **Omnibus test** — a chi-square test of independence on the 2×4 contingency table (click / no-click × version A–D).
+3. **Chi-square test** — a chi-square test of independence on the 2×4 contingency table (click / no-click × version A–D).
 4. **Post-hoc testing** — since a significant omnibus result only shows that *some* version differs, not *which*, every pairwise combination (6 total) is re-tested with its own chi-square test, using a Bonferroni-corrected alpha (0.05 / 6) to control the family-wise error rate.
 
 ## Results
